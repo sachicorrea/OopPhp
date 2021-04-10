@@ -1,0 +1,78 @@
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #FF47ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #DB28C8;
+}
+
+.activity {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#bill {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bill td, #bill th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#bill tr:hover {
+    background-color: #87E761;
+}
+
+#bill th {
+    padding: 12px 0 12px 8px;
+    text-align: left;
+    background-color: #FF47ED;
+    color: white;
+}
+
+/*
+.activity span{
+    margin-right: auto;
+    margin-left: auto;
+}
+*/
+
+.large {
+    counter-reset: list-counter;
+    list-style: none;
+}
+
+.large li {
+    margin: 1.0em 0;
+    line-height: 1em;
+}
+
+.large li:before {
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    font-family: arial;
+    color: #666;
+    font: bold;
+    font-size: 2em;
+    margin-right: .5em;
+}
